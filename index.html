@@ -1,62 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-        <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Meu Portfólio</title>
-        <link rel="stylesheet" href="arquivos-script/style.css">
-        </head>
-        <body>
-        <header>
-            <nav>
-            <div class="logo">Meu Portfólio</div>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Furmanski de Bem</title>
+    <link rel="stylesheet" href="arquivos-script/style.css">
+</head>
+<body>
 
-        <section class="hero">
-            <h1>Gabriel Furmanski de Bem</h1>
-            <a href="#projetos" class="btn">Ver Meus Projetos</a>
-        </section>
+    <div class="card">
+        <img src="img/user.jpg" alt="Foto de Perfil" class="perfil">
 
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <p>Cursando TI integrado ao Ensino Médio (3° ano). Portfólio dedicado ao Trabalho de Conclusão de Curso com o Orientador Jucemar Formigoni Cândido.</p>
-        </section>
-
-        <section id="projetos">
+        <h1>Gabriel Furmanski de Bem</h1>
+        <p class="descricao">Estudante de Tecnologia da Informação integrado ao Ensino Médio.<br>Desenvolvedor do projeto INDEXPEDIA.</p>
+        <section>
             <h2>Projetos</h2>
-            <div class="project-grid">
-            <a href="#" style="color: #343434; text-decoration: none;"> <!-- será inserido futuramente ao criar o repositório -->
-            <div class="project-card">
-                <h3>Projeto INDEXPEDIA</h3>
-                <p>Website de compartilhamento de informação com nivelação de leitura e verificação rígida das informações</p>
-            </div>
-            </a>
+            <div class="projeto">
+                <a href="#"><img src="img/logomarca_indexpedia.png" alt="logomarca do projeto INDEXPEDIA" class="projeto-img" style="max-width: 250px; height: auto;"></a> <!-- Assim que o repositório estiver disponível, o link será válido-->
+                <p>Plataforma de compartilhamento de informações com<br>adaptação do nível de leitura e verificação de conteúdo.</p>
             </div>
         </section>
 
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>E-mails:</p>
-            <p><ul>
-                <li><a href="mailto:gabrieldebem999@gmail.com">gabrieldebem999@gmail.com <img src="arquivos-script/img/email.png" alt="" style="max-width: 18px; margin: -3px 0px 0px 3px;"></a></li>
-                <li><a href="mailto:4542624799@estudante.sed.sc.gov.br">4542624799@estudante.sed.sc.gov.br <img src="arquivos-script/img/email.png" alt="" style="max-width: 18px; margin: -3px 0px 0px 3px;"></a></li>
-            </ul></p>
-            <p>Github:</p> 
-            <p>
-                <a href="https://github.com/GabrielFurmanski">https://github.com/GabrielFurmanski <img src="arquivos-script/img/github.png" alt="github img" style="max-width: 18px; margin: -3px 0px 0px 3px;"></a>
-            </p>
+        <section>
+            <h2>Redes Sociais</h2>
+            <div class="links">
+                <a href="mailto:gabrieldebem999@gmail.com">Email Principal</a>
+                <a href="mailto:4542624799@estudante.sed.sc.gov.br">Email Institucional</a>
+                <a href="https://github.com/GabrielFurmanskiDeBem" target="_blank">GitHub Principal</a>
+                <a href="https://github.com/GabrielFurmanski" target="_blank">GitHub Secundário</a>
+            </div>
         </section>
 
-        <footer>
-            <p>&copy; 2026 [Gabriel Furmanski de Bem]. Projeto Integrador com Jucemar Formigoni Cândido.</p>
-        </footer>
-        
-       <script src="arquivos-script/script.js"></script>
-    </body>
+    </div>
+
+    <script src="arquivos-script/script.js"></script>
+
+</body>
 </html>
